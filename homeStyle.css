@@ -83,6 +83,7 @@ figure {
 
 figcaption {
     text-decoration: underline;
+    margin-bottom: 5px;
 }
 
 img {
@@ -95,4 +96,11 @@ img {
 
 #bottom {
     margin-bottom: 100px;
+}
+
+.vid {
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
