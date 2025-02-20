@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Bright Gao">
+    <meta name="keywords" content="Bright Gao programming computer science C C++ BrightType typing type faster keyboard typing game Windows app application">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="homeStyle.css">
     <title>BrightType</title>
@@ -9,13 +11,43 @@
 <body>
     <div class="navbar">
         <a href="index.html"><button>Home</button></a>
-        <a  href="brighttype.html"><button>BrightType</button></a>
+        <a href="brighttype.html"><button>BrightType</button></a>
         <a href="contact.html"><button>Contact</button></a>
     </div>
-    <div class="all">
+    <div class="d1">
         <h1>BrightType: An Efficient, Customizable, and Fun Typing App</h1>
-        <a href="BrightType.zip" download><button class="dlbutton">Download BrightType v1.0</button></a>
+        <p id="BTdesc">I was on TypeRacer.com, when I noticed that a single chrome tab on the site was using over 500 MB of RAM. I would also notice latency, which was compounded by ads. That's when I had the idea to develop BrightType. 
+        I wrote BrightType in C/C++ and the Win32 API w/ efficiency in mind, and the testing I've done proves it. 
+        It takes on average 4,000 nanoseconds for my program to fully handle a keypress, for instance. I have optimized BrightType to the fullest, from halving the .exe size (150 KB -> 75 KB) to reducing the start-up time to 160 ms on average.
+        </p>
+        <a href="BrightType1.0.zip" download><button class="dlbutton">Download BrightType v1.0</button></a>
+        
+    </div>
+    <div>
+        <figure>
+            <figcaption>Typing interface</figcaption>
+            <img id="BThomeimg" src="images/BThome.jpg" alt="home" height="300" width="600">
+        </figure>
+        <figure>
+            <figcaption>Customize the font you type!</figcaption>
+            <img src="images/BTsettings.jpg" alt="home" height="300" width="223">
+        </figure>
+        <figure>
+            <figcaption>Results displayed after you finish!</figcaption>
+            <img src="images/BTresult.jpg" alt="home">
+        </figure>
+        <figure>
+            <figcaption>Retry or type new text, w/ key shortcuts too!</figcaption>
+            <img src="images/BTbuttons.jpg" alt="home">
+        </figure>
+    </div>
+    <div class="d1">
+        <h3 id="minreq">Minimum Requirements</h3>
+        <p id="minOS"><b>Minimum supported OS: </b> Windows Vista (with Service Pack 2 and Platform Update) and above.</p>
+        <p class="smalltxt">*Unfortunately, my app is not cross-platform b/c I developed it w/ Win32.</p>
+        <p><b>Minimum Hardware: </b>64 MB of RAM, 2 MB of free disk space, and a keyboard.</p>
         <p></p>
     </div>
+    <div id="bottom"></div>
 </body>
 </html>
