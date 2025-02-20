@@ -36,7 +36,7 @@ body {
     cursor: pointer;
 }
 
-.all {
+.d1 {
     padding: 0px;
     text-align: center;
 }
@@ -51,5 +51,48 @@ h1 {
     width: 200px;
     height: 60px;
     font-weight: bold;
+    background-color: #F0F0F0;
+    box-shadow: 0 2px 10px rgba(128, 128, 128, 0.5);
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
+.dlbutton:hover {
+    background-color: #DCDCDC;
+    cursor: pointer;
+}
+
+.smalltxt {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+#minOS {
+    margin-bottom: 0px;
+}
+
+#BTdesc {
+    line-height: 1.35;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    text-decoration: underline;
+}
+
+img {
+    margin-bottom: 13px;
+}
+
+#minreq {
+    margin-top: 30px;
+}
+
+#bottom {
+    margin-bottom: 100px;
+}
